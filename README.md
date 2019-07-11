@@ -16,4 +16,12 @@ RIDGE REGRESSION: Ridge Regression is a technique for analyzing multiple regress
 
 PRINCIPAL COMPONENT REGRESSION: This is regression analysis technique based on principal component analysis that considers regressing the outcome on a set of predictors based on its standard linear regression model however uses PCA for estimating unknown regression coefficients. We require ‘pls’ library to perform PCR on our training data set considering just the ‘effective predictive variables’. We used Mean Squared Error Prediction validation technique to predict the revenue of the restaurants. 
 
+![](PCR.PNG)
+
+
+PARTIAL LEAST SQUARE: This algorithm is an extension of multiple linear regression model that specifies the relationship between a dependent variable ‘Y’, and set of predictor variables ‘X’ so that  
+
+Y = b0+b1X1+b2X2+…..+bpXp 
+
+In this equation, b0 is the regression coefficient for the intercept and the bi values are the regression coefficients computed from the data. We again performed PCR on our training data set considering just the ‘effective predictive variables’. We used MSEP validation technique to predict the revenue of the restaurants. 
 
