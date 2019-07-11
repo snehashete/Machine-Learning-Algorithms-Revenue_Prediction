@@ -47,7 +47,7 @@ EVALUATION
 
 We calculated the performance of all the predictive models using the root mean squared error of the test data set revenue.
 
-RMSE =  ![](PLS.PNG)
+RMSE =  ![](RMSE.PNG)
 
 Where ‘Yt’ is the predicted revenue of the ith restaurant and ‘Ŷt’ is the actual revenue of the ith restaurant. 
 
