@@ -24,6 +24,8 @@ Formatted Open-Date: We have converted the Open-Date variable into three differe
 
 Data Filtration: In the given data set, the Id, Open.Date, Date, City are set to null as they have no effect on revenue prediction. The ‘Type’ column has four sub-categories named: FC, DT, IL, and MB. Where MB is missing in the training data set. Thus, to overcome this drawback we convert these sub-categories into equivalent numeric factor. We have 38 unique cities in training data set, whereas 54 unique cities in testing data set and this creates inconsistency in prediction model, so we drop the ‘City’ column from our data set.  
 Restaurants having revenues greater than 16,000,000 are not considered in our prediction model as they are the outliers. 
+
+![](Data Filtration.PNG)
  
 Data Modeling:
 
