@@ -47,6 +47,20 @@ EVALUATION
 
 We calculated the performance of all the predictive models using the root mean squared error of the test data set revenue.
 
-RMSE =  
+RMSE =  ![](PLS.PNG)
 
 Where ‘Yt’ is the predicted revenue of the ith restaurant and ‘Ŷt’ is the actual revenue of the ith restaurant. 
+
+COMPUTATIONAL EXPERIMENT & RESULTS
+
+Using RMSE evaluation technique on each predictive model, we have selected the ones with least values for our prediction, however the RMSE of each model is given as: 
+➢ Logistic Regression: 1131755 
+➢ Lasso Regression: 1111835   
+➢ Ridge Regression: 1116012 
+➢ Principal Component Regression: 1103852 
+➢ Partial Least Square: 1127979 
+➢ Backward Selection: 1122023 
+➢ Stepwise Selection: 1122023 
+➢ Linear Regression: 1131755 
+➢ Gradient Boosting Machine: 1103778 
+➢ Support Vector Machine: 1260842 
